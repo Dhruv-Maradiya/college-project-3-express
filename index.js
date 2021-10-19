@@ -7,7 +7,7 @@ const db = require("./firebase");
 const { collection, getDocs } = require("firebase/firestore");
 require('dotenv').config();
 const port = process.env.PORT || 8001;
-
+console.log("hiii")
 const twitterClient = new Twitter({
   consumer_key: "umlgr3jxEO0uZIEjR4R77566y", //YCttnrIs237tVMqKVinUdceh2
   consumer_secret: "qd3ctTzIPo67NSSKQEb4qJiNqUYRvq3ex7Yk8e8LuMP2bzd8Ha", //HmqZJBCVpNvBvYQk3m5CbLRXYvhVWXndX5QpHgTmtZKkFReIIZ
